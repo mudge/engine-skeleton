@@ -1,0 +1,13 @@
+{
+    "name": "mudge/engine-skeleton",
+    "type": "project",
+    "description": "A starter kit for a web application written with Engine",
+    "license": "MIT",
+    "require": {
+        "mudge/engine": "dev-master",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {"App\\":"src/"}
+    }
+}
