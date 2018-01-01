@@ -20,8 +20,15 @@ $ php -S localhost:8080 -t public
 
 Now go to http://localhost:8080 and you should see a welcome page from Engine.
 
+## Running tests
+
+```console
+$ ./vendor/bin/phpunit
+```
+
 ## Adding your own code
 
+* Add your tests to `tests`
 * Add your controllers to `src` and route requests to them in `public/index.php`
 * Add your own templates to `templates`
 * Add your own static files to `public`
